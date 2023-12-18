@@ -3,7 +3,7 @@ name: my githubworkflow test
 on: push
 
 jobs:
-    first work:
+    first_work:
     runs_on: ubuntu_latest
     steps:
     - name: Welcome message
