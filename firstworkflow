@@ -1,0 +1,13 @@
+name: my githubworkflow test
+
+on: push
+
+jobs:
+    first work:
+    runs_on: ubuntu_latest
+    steps:
+    - name: Welcome message
+      run: echo "hello github"
+
+
+
